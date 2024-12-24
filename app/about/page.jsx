@@ -13,25 +13,10 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <PageHero
-        subtitle="ABOUT COMPANY"
-        title="The future of business is being <br> shaped by SFGCO "
-        paragraph="Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. It's not Latin, though it looks like it"
-      />
-      <Integration />
-      <PaymentFeatures
-        features={AboutFeaturesData}
-        sectionTag={"OUR VALUE"}
-        sectionTitle={"Our business is steered by our core values"}
-        spacing={
-          "max-md:py-25 py-150 bg-white dark:bg-dark-300 relative max-md:overflow-hidden"
-        }
-      />
-      <AboutValue />
+      <CtaV2 />
       <TestimonialSlider />
       <Counter />
       <TeamMembers />
-      <CtaV2 />
     </>
   );
 };

@@ -1,42 +1,19 @@
 "use client";
 
-import { faCheck } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Link from "next/link";
 import { motion } from "framer-motion";
-import possibilitiesExpenseLight from "../public/images/payment/expense.png";
-import possibilitiesExpenseDark from "../public/images/payment/expense-dark.png";
-import possibilitiesBaseDark from "../public/images/payment/explore-dark.png";
-import possibilitiesBaseLight from "../public/images/payment/explore.png";
-import possibilitiesPaymentDark from "../public/images/payment/payment-dark.png";
-import possibilitiesPaymentLight from "../public/images/payment/payment.png";
-import possibilitiesSummeryDark from "../public/images/payment/summery-dark.png";
-import possibilitiesSummeryLight from "../public/images/payment/summery.png";
+
 import WHyUsDark from "../public/images/payment/whyUs-bg-dark.png";
 import WHyUsLight from "../public/images/payment/whyUs-bg.png";
 import WHyUsImageDark from "../public/images/payment/whyUs-image-dark.png";
 import WHyUsImageLight from "../public/images/payment/whyUs-image.png";
 import Image from "next/image";
-import {
-  fadeFromLeftAnimation,
-  fadeFromLeftAnimation2,
-  fadeFromLeftAnimation3,
-  fadeFromRightAnimation,
-  fadeUpAnimation,
-} from "@/data/animation";
+import { fadeFromRightAnimation } from "@/data/animation";
 import useWhileInView from "@/hooks/useWhileInView";
 import { useRef } from "react";
 const WhyUs = () => {
   const ref = useRef(null);
   const controlAnimation = useWhileInView(ref);
-  const ref2 = useRef(null);
-  const controlAnimation2 = useWhileInView(ref2);
-  const ref3 = useRef(null);
-  const controlAnimation3 = useWhileInView(ref3);
-  const ref4 = useRef(null);
-  const controlAnimation4 = useWhileInView(ref4);
-  const ref5 = useRef(null);
-  const controlAnimation5 = useWhileInView(ref5);
+
   return (
     <section className="relative overflow-x-hidden pt-[200px]">
       <div className="container relative z-10 [&>*:nth-child(odd)]:after:absolute [&>*:nth-child(odd)]:after:bottom-0 [&>*:nth-child(odd)]:after:left-1/2 [&>*:nth-child(odd)]:after:h-0.5 [&>*:nth-child(odd)]:after:w-full [&>*:nth-child(odd)]:after:-translate-x-1/2  [&>*:nth-child(odd)]:after:bg-[url('/images/payment/seperator.png')] [&>*:nth-child(odd)]:after:bg-full [&>*:nth-child(odd)]:after:bg-center [&>*:nth-child(odd)]:after:bg-no-repeat dark:[&>*:nth-child(odd)]:after:bg-[url('/images/payment/seperator-dark.png')]  [&>:nth-child(even)]:pt-25  max-md:[&>:nth-child(even)]:pt-10 lg:[&>:nth-child(even)]:pt-[200px]  [&>:nth-child(odd)]:pb-25 max-md:[&>:nth-child(odd)]:pb-0 lg:[&>:nth-child(odd)]:pb-150">
@@ -75,13 +52,13 @@ const WhyUs = () => {
             <p className="section-tagline">WHY CHOOSE US</p>
 
             <h2 className="mb-8">
-              Control the flow of
+              We position SFGCO
               <br />
-              money easily
+              at technology and green sustainability
             </h2>
             <p className="mb-11">
-              Until recently, the prevailing view assumed lorem ipsum was born
-              as a nonsense text nothing Before & After magazine.
+              These services reflect SFGCO's focus on leveraging technology and
+              innovation to drive sustainable development in Saudi Arabia.
             </p>
             <ul className="mb-14 [&>*:not(:last-child)]:mb-6 ">
               <li className="flex items-center gap-x-2 ">
@@ -108,8 +85,7 @@ const WhyUs = () => {
                   </svg>
                 </span>
                 <span className="dark:text-white">
-                  {" "}
-                  It’s scalable and secure{" "}
+                  Sustainable Technology Solutions
                 </span>
               </li>
               <li className="flex items-center gap-x-2">
@@ -134,8 +110,7 @@ const WhyUs = () => {
                   </svg>
                 </span>
                 <span className="dark:text-white">
-                  {" "}
-                  Artificial Intelligence Feature{" "}
+                  Waste & Resource Management
                 </span>
               </li>
               <li className="flex items-center gap-x-2 ">
@@ -161,128 +136,10 @@ const WhyUs = () => {
                 </span>
 
                 <span className="dark:text-white">
-                  {" "}
-                  Offline version available{" "}
+                  Green Investment & Carbon Management
                 </span>
               </li>
             </ul>
-          </div>
-        </div>
-        <div className="relative grid grid-cols-2 items-end gap-25 max-md:grid-cols-1 1xl:gap-x-24 ">
-          <div className="relative  max-md:order-1">
-            <p className="section-tagline">EXPLORE POSSIBILITIES</p>
-
-            <h2 className="mb-8">
-              Manage your money <br />
-              with SFGCO .
-            </h2>
-            <p className="mb-11">
-              Until recently, the prevailing view assumed lorem ipsum was born
-              as a nonsense text nothing Before & After magazine.
-            </p>
-            <ul className="mb-14 max-w-[490px] [&>*:not(:last-child)]:mb-5">
-              <li className="flex items-center gap-x-5 rounded border border-dashed border-gray-100 p-2.5 dark:border-borderColor-dark">
-                <span className=" shadow-icon relative h-10 w-10 gap-6 rounded-full bg-[#F3F8E8]  dark:bg-dark-200">
-                  <FontAwesomeIcon
-                    icon={faCheck}
-                    className=" absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-primary"
-                  />
-                </span>
-                <span className="font-jakarta_sans font-semibold">
-                  {" "}
-                  It’s scalable and secure{" "}
-                </span>
-              </li>
-              <li className="flex items-center gap-x-5 rounded border border-dashed border-gray-100 p-2.5 dark:border-borderColor-dark">
-                <span className=" shadow-icon relative h-10 w-10 gap-6 rounded-full bg-[#F3F8E8]  dark:bg-dark-200">
-                  <FontAwesomeIcon
-                    icon={faCheck}
-                    className=" absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-primary"
-                  />
-                </span>
-                <span className="font-jakarta_sans font-semibold">
-                  {" "}
-                  Cash Flow Statements{" "}
-                </span>
-              </li>
-            </ul>
-            <Link href="/contact" className="btn">
-              Get Started
-            </Link>
-          </div>
-          <div className="relative  max-md:order-2">
-            <motion.div
-              className="w-full lg:h-[500px] lg:w-[420px]"
-              ref={ref2}
-              initial="initial"
-              animate={controlAnimation2}
-              variants={fadeUpAnimation}
-            >
-              <Image
-                src={possibilitiesBaseLight}
-                alt="explore"
-                className="rounded-medium dark:hidden"
-              />
-              <Image
-                src={possibilitiesBaseDark}
-                alt="explore"
-                className="hidden rounded-medium dark:inline-block"
-              />
-            </motion.div>
-            <motion.div
-              className="absolute rounded-medium max-lg:-right-12 max-lg:-top-20 max-lg:max-w-[275px] lg:-top-[170px] lg:right-0"
-              ref={ref3}
-              initial="initial"
-              animate={controlAnimation3}
-              variants={fadeFromLeftAnimation}
-            >
-              <Image
-                src={possibilitiesSummeryLight}
-                alt="summery"
-                className=" dark:hidden"
-              />
-              <Image
-                src={possibilitiesSummeryDark}
-                alt="summery"
-                className="hidden dark:inline-block"
-              />
-            </motion.div>
-            <motion.div
-              className="absolute rounded-medium max-lg:-right-12 max-lg:top-[80px] max-lg:max-w-[275px] max-xs:top-[75px] lg:right-0 lg:top-[280px]"
-              ref={ref4}
-              initial="initial"
-              animate={controlAnimation4}
-              variants={fadeFromLeftAnimation2}
-            >
-              <Image
-                src={possibilitiesPaymentLight}
-                alt="summery"
-                className="dark:hidden"
-              />
-              <Image
-                src={possibilitiesPaymentDark}
-                alt="summery"
-                className="hidden dark:inline-block"
-              />
-            </motion.div>
-            <motion.div
-              className="absolute rounded-medium max-lg:-right-12 max-lg:top-[220px] max-lg:max-w-[275px] max-xs:top-[170px] lg:right-0 lg:top-[75px]"
-              ref={ref5}
-              initial="initial"
-              animate={controlAnimation5}
-              variants={fadeFromLeftAnimation3}
-            >
-              <Image
-                src={possibilitiesExpenseLight}
-                alt="summery"
-                className="dark:hidden"
-              />
-              <Image
-                src={possibilitiesExpenseDark}
-                alt="summery"
-                className="hidden dark:inline-block"
-              />
-            </motion.div>
           </div>
         </div>
       </div>

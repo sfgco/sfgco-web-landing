@@ -29,8 +29,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: "SFGCO  | Customer engagement platform.",
-  description: "Delightful customer relationships, at scale",
+  title: "SFGCO  | The future of green sustainability and investment.",
+  description:
+    " SFGCO (Saudi Future Green Company) is a prominent player in Saudi Arabia's growing green sustainability and investment sector. The company is dedicated to advancing environmental initiatives and driving sustainable development in the Kingdom. SFGCO focuses on renewable energy, waste management, and circular economy solutions, with an emphasis on using cutting-edge technologies to support the Kingdom's Vision 2030 objectives.",
 };
 
 export default function RootLayout({ children }) {

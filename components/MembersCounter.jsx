@@ -42,16 +42,13 @@ const MembersCounter = ({ border = true }) => {
                 <div className="flex h-[90px] w-[90px] items-center justify-center rounded-full border border-dashed border-gray-100 dark:border-borderColor-dark">
                   <h3 className="text-[28px] leading-none text-primary dark:text-primary">
                     <span className="counterTrusted text-[28px] leading-none text-primary dark:text-primary">
-                      <CounterAnimation number={85} />
+                      <CounterAnimation number={2} />
                     </span>
-                    M
+                    K
                   </h3>
                 </div>
               </div>
-              <h3 className="leading-8 ">
-                People <br />
-                of SFGCO bank
-              </h3>
+              <h3 className="leading-8 ">International partners</h3>
             </div>
           </div>
         </div>

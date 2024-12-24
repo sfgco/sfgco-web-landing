@@ -1,15 +1,13 @@
-import React from 'react'
-import { CoreFeatures } from '@/data/data'
-import Image from 'next/image'
+import React from "react";
+import { CoreFeatures } from "@/data/data";
+import Image from "next/image";
 const CoreFeature = () => {
   return (
     <section className="relative pt-150">
       <div className="absolute left-0 right-0 top-150 h-full w-full bg-[url('/images/core-gradient.png')] bg-[length:600px_1800px] bg-center bg-no-repeat opacity-70 md:hidden"></div>
       <div className="container">
         <div className="mx-auto mb-12 max-w-[575px] text-center">
-          <p className="section-tagline">Core Features</p>
-
-          <h2>Customer engagement made easy</h2>
+          <p className="section-tagline">Core Services</p>
         </div>
 
         <div className="relative z-10">
@@ -24,7 +22,8 @@ const CoreFeature = () => {
               {CoreFeatures.slice(0, 3).map((items) => (
                 <div
                   className=" group  relative px-0 py-12 after:absolute after:overflow-hidden max-lg:top-auto max-lg:after:bottom-0 max-lg:after:h-[1px] max-lg:after:w-full max-lg:after:content-[url('/images/payment/coreborder-bottom-mobile.svg')] dark:max-lg:after:content-[url('/images/payment/coreborder-bottom-mobile-dark.svg')] lg:px-12 lg:after:right-0 lg:after:top-1/2  lg:after:h-full lg:after:w-[1px] lg:after:-translate-y-1/2 lg:after:content-[url('/images/payment/coreborder-right.svg')] lg:dark:after:content-[url('/images/payment/coreborder-right-dark.svg')]"
-                  key={items.id}>
+                  key={items.id}
+                >
                   <Image
                     src={items.iconLight}
                     alt="payment logo"
@@ -50,7 +49,8 @@ const CoreFeature = () => {
               {CoreFeatures.slice(3, 6).map((items) => (
                 <div
                   className=" group  relative px-0 py-12 after:absolute after:overflow-hidden max-lg:top-auto max-lg:after:bottom-0 max-lg:after:h-[1px] max-lg:after:w-full max-lg:after:content-[url('/images/payment/coreborder-bottom-mobile.svg')] dark:max-lg:after:content-[url('/images/payment/coreborder-bottom-mobile-dark.svg')] lg:px-12 lg:after:right-0 lg:after:top-1/2  lg:after:h-full lg:after:w-[1px] lg:after:-translate-y-1/2 lg:after:content-[url('/images/payment/coreborder-right.svg')] lg:dark:after:content-[url('/images/payment/coreborder-right-dark.svg')]"
-                  key={items.id}>
+                  key={items.id}
+                >
                   <Image
                     src={items.iconLight}
                     alt="payment logo"
@@ -76,7 +76,7 @@ const CoreFeature = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default CoreFeature
+export default CoreFeature;
