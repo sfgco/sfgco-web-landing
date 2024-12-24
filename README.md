@@ -1,50 +1,16 @@
-# React + TypeScript + Vite
+# SFGCO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SFGCO Nextjs Theme Development Structure.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+** Recommended modules and Installation process **
 
-## Expanding the ESLint configuration
+1. We need **Node modules** to run the project. To install **Node Modules** on your computer visit the following links and follow the steps. [Install Node](https://nodejs.org/en/)
+2. To use **yarn** instead of **npm install**, We need to install **Yarn**. Please click [here](https://yarnpkg.com/getting-started/install) and follow the steps to install Yarn.
+3. Now, Download the project and run **npm install** or **yarn** to install the modules.
+4. After successfully installed all require modules, run **npm run dev** or **yarn dev** to run the project. this will create a dist folder, where all the developed file will remain.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+`Note`: For more details, read the full documenation [here](https://docs.SFGCO.com/SFGCO /nextjs/introduction).
