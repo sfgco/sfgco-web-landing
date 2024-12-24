@@ -2,7 +2,7 @@
 title: Terms & Conditions
 ---
 
-At SFGCO Chat, we take your privacy seriously. This privacy policy explains how we collect, use, and protect your personal information.
+At SFGCO , we take your privacy seriously. This privacy policy explains how we collect, use, and protect your personal information.
 
 ### Information We Collect
 
@@ -34,4 +34,4 @@ We may update this privacy policy from time to time. We will notify you of any c
 
 ### Contact Us
 
-If you have any questions or concerns about this privacy policy or our use of your personal information, please contact us at [coantct](hello@SFGCO Chat.com).
+If you have any questions or concerns about this privacy policy or our use of your personal information, please contact us at [coantct](hello@SFGCO .com).

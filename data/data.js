@@ -210,7 +210,7 @@ export const ServiceData = [
     slug: "team-collaboration",
     title: "Team Collaboration",
     excerpt:
-      "Communicate with your teammates without leaving SFGCO. Simply, use private notes to mention your colleagues and chat with them about your customer conversations.",
+      "Communicate with your teammates without leaving SFGCO. Simply, use private notes to mention your colleagues and  with them about your customer conversations.",
     iconLight: "/images/services/sales.svg",
     iconDark: "/images/services/sales-dark.svg",
     featureImage: "/images/services/service-single1.png",
@@ -536,8 +536,8 @@ export const TestimonialData = [
   },
   {
     id: 6,
-    logoLight: "/images/testimonial/coolchat.svg",
-    logoDark: "/images/testimonial/coolchat-dark.svg",
+    logoLight: "/images/testimonial/cool.svg",
+    logoDark: "/images/testimonial/cool-dark.svg",
     testimonial:
       "Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. It's not Latin though it looks like it, and it actually says nothing.",
     rating: 5,
@@ -576,7 +576,7 @@ export const CoreFeatures = [
     title: "Team Collaboration",
     iconLight: "/images/payment/invoice.svg",
     iconDark: "/images/payment/invoice-dark.svg",
-    desc: "Communicate with your teammates without leaving SFGCO. Simply, use private notes to mention your colleagues and chat with them about your customer conversations.",
+    desc: "Communicate with your teammates without leaving SFGCO. Simply, use private notes to mention your colleagues and  with them about your customer conversations.",
   },
   {
     id: 2,
@@ -888,7 +888,7 @@ export const IntegrationData = [
     image: "/images/integration/whatsapp.png",
     title: "Whatsapp",
     details:
-      "Integrate WhatsApp for direct customer support, allowing agents to manage chats and media seamlessly within your system.",
+      "Integrate WhatsApp for direct customer support, allowing agents to manage s and media seamlessly within your system.",
   },
   {
     id: 5,

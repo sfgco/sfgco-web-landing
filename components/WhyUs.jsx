@@ -174,7 +174,7 @@ const WhyUs = () => {
 
             <h2 className="mb-8">
               Manage your money <br />
-              with SFGCO Chat.
+              with SFGCO .
             </h2>
             <p className="mb-11">
               Until recently, the prevailing view assumed lorem ipsum was born

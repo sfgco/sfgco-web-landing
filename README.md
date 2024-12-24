@@ -1,6 +1,6 @@
-# SFGCO Chat
+# SFGCO
 
-SFGCO Chat Nextjs Theme Development Structure.
+SFGCO Nextjs Theme Development Structure.
 
 ## Getting Started
 
@@ -13,4 +13,4 @@ SFGCO Chat Nextjs Theme Development Structure.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-`Note`: For more details, read the full documenation [here](https://docs.SFGCO.com/SFGCO Chat/nextjs/introduction).
+`Note`: For more details, read the full documenation [here](https://docs.SFGCO.com/SFGCO /nextjs/introduction).

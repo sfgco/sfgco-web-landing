@@ -20,7 +20,7 @@ const BlogDetails = (props) => {
     <>
       <PageHero
         subtitle="BLOG Details"
-        title="Recent blogs created <br/> by SFGCO Chat"
+        title="Recent blogs created <br/> by SFGCO "
       />
       <article className="relative pb-150">
         <div className="absolute -top-[250px] left-1/2 -z-10 h-[550px] w-full -translate-x-1/2  bg-[url('/images/hero-gradient.png')] bg-cover bg-center bg-no-repeat opacity-70 md:hidden"></div>
