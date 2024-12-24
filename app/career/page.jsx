@@ -10,7 +10,7 @@ const Career = () => {
     <>
       <PageHero
         subtitle="CAREER PAGE"
-        title="Become a part of the <br/> SFGCO  team"
+        title="Become a part of the <br/> SFGCO team"
       />
       <CareerDetails />
       <PaymentFeatures

@@ -36,12 +36,7 @@ export const menuData = {
           path: '/testimonial',
           newTab: false,
         },
-        {
-          id: 4.4,
-          title: 'Integration',
-          path: '/integration',
-          newTab: false,
-        },
+        
         {
           id: 4.5,
           title: 'FAQs',
@@ -868,8 +863,8 @@ export const FooterData = {
   resources: [
     {
       id: 3,
-      name: "Integration",
-      link: "/integration",
+      name: "Career",
+      link: "/career",
     },
     {
       id: 4,
