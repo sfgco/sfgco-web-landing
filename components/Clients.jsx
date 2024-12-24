@@ -16,7 +16,7 @@ const Clients = ({
         {sectionTitle && (
           <div className=" px-10px mx-auto max-w-[550px] text-center max-lg:px-2.5">
             <h2 className="mb-10">
-              The world&rsquo;s best companies trust Eayni .
+              The world&rsquo;s best companies trust SFGCO .
             </h2>
             <p className="text-light mb-15">
               Trusted by thousands of companies across 50+ countries

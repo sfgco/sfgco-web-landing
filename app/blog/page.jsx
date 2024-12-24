@@ -9,7 +9,7 @@ const Blog = () => {
     <>
       <PageHero
         subtitle="BLOG GRID"
-        title="Recent blogs created <br/> by Eayni "
+        title="Recent blogs created <br/> by SFGCO "
       />
       <BlogFeatures featureBlog={blogs} />
       <BlogGrid blogItemData={blogs} />

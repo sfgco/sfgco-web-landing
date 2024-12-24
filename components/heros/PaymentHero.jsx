@@ -1,13 +1,13 @@
-'use client'
-import React from 'react'
-import PaymentImage from '../../public/images/payment/payment-hero.png'
-import PaymentImageDark from '../../public/images/payment/payment-hero-dark.png'
-import PaymentImageDevice from '../../public/images/payment/payment-hero-device.png'
-import PaymentImageDeviceDark from '../../public/images/payment/payment-hero-device-dark.png'
-import Image from 'next/image'
-import Link from 'next/link'
-import { fadeUpAnimation } from '@/data/animation'
-import { motion } from 'framer-motion'
+"use client";
+import React from "react";
+import PaymentImage from "../../public/images/payment/payment-hero.png";
+import PaymentImageDark from "../../public/images/payment/payment-hero-dark.png";
+import PaymentImageDevice from "../../public/images/payment/payment-hero-device.png";
+import PaymentImageDeviceDark from "../../public/images/payment/payment-hero-device-dark.png";
+import Image from "next/image";
+import Link from "next/link";
+import { fadeUpAnimation } from "@/data/animation";
+import { motion } from "framer-motion";
 const PaymentHero = () => {
   return (
     <section className="hero relative overflow-hidden pb-[140px] max-lg:pt-[160px] lg:pt-[260px]">
@@ -17,15 +17,18 @@ const PaymentHero = () => {
             className="max-md:col-span-full max-md:mb-[350px] md:col-span-7"
             initial="initial"
             animate="animate"
-            variants={fadeUpAnimation}>
+            variants={fadeUpAnimation}
+          >
             <h1 className="mb-10">
               Omnichannel
-              <span className="inline-block px-5 pb-2.5 pt-0.5  font-playfair italic leading-none">customer</span>
+              <span className="inline-block px-5 pb-2.5 pt-0.5  font-playfair italic leading-none">
+                customer
+              </span>
               support center.
             </h1>
             <p className="mb-12 max-w-[590px]">
-              Eayni gives you all the tools to manage conversations, build relationships and delight your customers from
-              one place.
+              SFGCO gives you all the tools to manage conversations, build
+              relationships and delight your customers from one place.
             </p>
             <div className="flex items-center gap-4">
               <Link href="/contact" className="btn">
@@ -40,7 +43,8 @@ const PaymentHero = () => {
             className="relative max-md:col-span-full md:z-10 md:col-span-5"
             initial="initial"
             animate="animate"
-            variants={fadeUpAnimation}>
+            variants={fadeUpAnimation}
+          >
             <div className="absolute left-1/2 top-1/2 -z-10 flex -translate-x-1/2 -translate-y-1/2 max-md:hidden">
               <div className="rounded-full bg-primary-200/20 blur-[145px]  max-1xl:h-[335px] max-1xl:w-[335px] max-lg:hidden 1xl:h-[442px] 1xl:w-[442px]"></div>
               <div className="-ml-[170px] -mt-150 rounded-full  bg-primary-200/25 blur-[145px] max-1xl:h-[335px] max-1xl:blur-[80px] max-lg:w-[335px] max-md:ml-0 1xl:h-[442px] 1xl:w-[442px]"></div>
@@ -77,7 +81,7 @@ const PaymentHero = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default PaymentHero
+export default PaymentHero;

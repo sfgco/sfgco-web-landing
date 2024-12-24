@@ -29,7 +29,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: "Eayni  | Customer engagement platform.",
+  title: "SFGCO  | Customer engagement platform.",
   description: "Delightful customer relationships, at scale",
 };
 
