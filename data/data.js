@@ -8,6 +8,12 @@ export const menuData = {
   menuContent: [
     {
       id: 2,
+      title: "Investments",
+      path: "/investments",
+      newTab: false,
+    },
+    {
+      id: 2,
       title: "About",
       path: "/about",
       newTab: false,
