@@ -162,13 +162,9 @@ const Hero = () => {
         >
           <div className="col-span-12  ">
             <h1 className="mb-12 max-md:mb-8">
-              Saudi Future
-              <span className=" mr-2 inline-block rounded-[88px] border-2 border-paragraph bg-[#0e633c] pb-2.5 pl-4 pr-5 pt-0.5 font-playfair italic leading-none dark:border-[#fffff]">
-                SFGCO
-              </span>
-              green sustainability and investment
+              Future of Green Sustainability For Investment
             </h1>
-            <p className="mb-12 max-w-[590px] max-md:mb-8">
+            <p className="mb-12  max-md:mb-12">
               The company is dedicated to advancing environmental initiatives
               and driving sustainable development in the Kingdom. SFGCO focuses
               on renewable energy, waste management, and circular economy

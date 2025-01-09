@@ -14,8 +14,10 @@ const MembersCounter = ({ border = true }) => {
         >
           <div className="max-lg:col-span-full lg:col-span-6">
             <div className="max-w-[550px]">
-              <p className="section-tagline">Numbers</p>
-              <h2>More than 10 years experience in this industry</h2>
+              <span className=" mr-2 inline-block rounded-[88px] border-2 border-paragraph bg-[#0e633c] pb-2.5 pl-4 pr-5 pt-0.5 font-playfair italic leading-none dark:border-[#fffff]">
+                SFGCO
+              </span>
+              <h2>More than 10 years experience in Sustainability industry</h2>
             </div>
           </div>
           <div className="py-5 max-md:col-span-full md:col-span-6 lg:col-span-3">
