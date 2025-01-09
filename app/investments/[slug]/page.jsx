@@ -2,17 +2,17 @@ import MembersCounter from "@/components/MembersCounter";
 import NewsLetter from "@/components/NewsLetter";
 import Pricing from "@/components/Pricing";
 import ServiceContent from "@/components/ServiceContent";
-import { ServiceData } from "@/data/data";
+import { InvestmentsData } from "@/data/data";
 
 export async function generateStaticParams() {
-  return ServiceData.map((item) => ({
+  return InvestmentsData.map((item) => ({
     slug: item.slug,
   }));
 }
 
 const ServiceDetails = (props) => {
   const slug = props.params.slug;
-  const data = ServiceData.find((post) => post.slug === slug);
+  const data = InvestmentsData.find((post) => post.slug === slug);
 
   return (
     <>

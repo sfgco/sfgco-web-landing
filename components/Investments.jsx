@@ -1,12 +1,12 @@
 "use client";
 import { fadeUpAnimation } from "@/data/animation";
 import { motion } from "framer-motion";
-import { ServiceData } from "@/data/data";
+import { InvestmentsData } from "@/data/data";
 import Image from "next/image";
 import Link from "next/link";
 import useWhileInView from "@/hooks/useWhileInView";
 import { useRef } from "react";
-const Services = () => {
+const Investments = () => {
   const ref = useRef(null);
   const controlAnimation = useWhileInView(ref);
   return (
@@ -26,7 +26,7 @@ const Services = () => {
             animate={controlAnimation}
             variants={fadeUpAnimation}
           >
-            {ServiceData?.map((items) => (
+            {InvestmentsData?.map((items) => (
               <div
                 className="relative scale-100 rounded-medium bg-white p-2.5 shadow-nav transition-transform duration-500 hover:scale-105 hover:transition-transform hover:duration-500 dark:bg-dark-200"
                 key={items.id}
@@ -66,4 +66,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Investments;

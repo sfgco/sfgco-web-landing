@@ -149,21 +149,20 @@ export const ClientData = [
   },
 ];
 
-export const ServiceData = [
+export const InvestmentsData = [
   {
     id: 1,
-    slug: "AI-powered",
-    title: "AI-powered",
-    excerpt:
-      "AI-powered Reply to frequently asked questions, using canned responses.",
+    slug: "AI-for-sustainability",
+    title: "AI for Sustainability",
+    excerpt: "Artificial Intelligence (AI) for Environmental Sustainability",
     iconLight: "/images/services/investment.svg",
     iconDark: "/images/services/investment-dark.svg",
     featureImage: "/images/services/service-single1.png",
     videoLink: "https://www.youtube.com/embed/YE7VzlLtp-4?si=XvNRN6ztByvZQzqh",
     serviceDetails:
-      "Lorem ipsum dolor sit amet consectetur. Nullam blandit dui gravida aliquam enim eu. Adipiscing viverra vulputate curabitur est. Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit. Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus magna augue adipiscing.",
+      "AI in Waste Sorting & Recycling: AI can be used to optimize the recycling process, sorting waste more effectively by identifying materials that can be recycled or reused. Robotics and machine learning algorithms can significantly enhance the efficiency of waste processing and material recovery.",
     serviceExpectation:
-      "Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit. Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus magna augue adipiscing.",
+      "AI in Renewable Energy: AI can optimize the performance of renewable energy systems like solar panels or wind turbines by predicting weather patterns, optimizing the energy output, and reducing downtime.",
     serviceExpectationList: [
       {
         item: "It’s scalable and secure",
@@ -176,7 +175,7 @@ export const ServiceData = [
       },
     ],
     serviceQualifications:
-      "Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit. Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus magna augue adipiscing.",
+      "Climate Monitoring & Predictive Modeling: AI-powered platforms can analyze vast amounts of environmental data, predicting climate changes, and helping businesses and governments make informed decisions to mitigate environmental risks.",
     serviceQualificationsList: [
       {
         item: "It’s scalable and secure",
@@ -191,16 +190,15 @@ export const ServiceData = [
   },
   {
     id: 2,
-    slug: "team-collaboration",
-    title: "Team Collaboration",
-    excerpt:
-      "Communicate with your teammates without leaving SFGCO. Simply, use private notes to mention your colleagues and  with them about your customer conversations.",
+    slug: "waste-management",
+    title: "Waste Management",
+    excerpt: "Waste Management Investments for Sustainability",
     iconLight: "/images/services/sales.svg",
     iconDark: "/images/services/sales-dark.svg",
     featureImage: "/images/services/service-single1.png",
     videoLink: "https://www.youtube.com/embed/YE7VzlLtp-4?si=XvNRN6ztByvZQzqh",
     serviceDetails:
-      "Lorem ipsum dolor sit amet consectetur. Nullam blandit dui gravida aliquam enim eu. Adipiscing viverra vulputate curabitur est. Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit. Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus magna augue adipiscing.",
+      "The global waste crisis is a major driver for innovation and investment in the waste management sector. As cities grow and consumption increases, the management of waste—from collection to disposal to recycling—will play a vital role in achieving sustainability goals.",
     serviceExpectation:
       "Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit. Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus magna augue adipiscing.",
     serviceExpectationList: [
@@ -236,123 +234,6 @@ export const ServiceData = [
       "Setup Automation Rules to handle all the grunt work. So, your customers get all your attention.",
     iconLight: "/images/services/loan.svg",
     iconDark: "/images/services/loan-dark.svg",
-    featureImage: "/images/services/service-single1.png",
-    videoLink: "https://www.youtube.com/embed/YE7VzlLtp-4?si=XvNRN6ztByvZQzqh",
-    serviceDetails:
-      "Lorem ipsum dolor sit amet consectetur. Nullam blandit dui gravida aliquam enim eu. Adipiscing viverra vulputate curabitur est. Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit. Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus magna augue adipiscing.",
-    serviceExpectation:
-      "Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit. Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus magna augue adipiscing.",
-    serviceExpectationList: [
-      {
-        item: "It’s scalable and secure",
-      },
-      {
-        item: "Artificial Intelligence Feature",
-      },
-      {
-        item: "Offline version available",
-      },
-    ],
-    serviceQualifications:
-      "Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit. Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus magna augue adipiscing.",
-    serviceQualificationsList: [
-      {
-        item: "It’s scalable and secure",
-      },
-      {
-        item: "Artificial Intelligence Feature",
-      },
-      {
-        item: "Offline version available",
-      },
-    ],
-  },
-  {
-    id: 4,
-    slug: "dashboard-apps",
-    title: "Dashboard Apps",
-    excerpt:
-      "Embed your own custom apps, and view all your customer data on a single dashboard.",
-    iconLight: "/images/services/finance.svg",
-    iconDark: "/images/services/finance-dark.svg",
-    featureImage: "/images/services/service-single1.png",
-    videoLink: "https://www.youtube.com/embed/YE7VzlLtp-4?si=XvNRN6ztByvZQzqh",
-    serviceDetails:
-      "Lorem ipsum dolor sit amet consectetur. Nullam blandit dui gravida aliquam enim eu. Adipiscing viverra vulputate curabitur est. Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit. Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus magna augue adipiscing.",
-    serviceExpectation:
-      "Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit. Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus magna augue adipiscing.",
-    serviceExpectationList: [
-      {
-        item: "It’s scalable and secure",
-      },
-      {
-        item: "Artificial Intelligence Feature",
-      },
-      {
-        item: "Offline version available",
-      },
-    ],
-    serviceQualifications:
-      "Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit. Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus magna augue adipiscing.",
-    serviceQualificationsList: [
-      {
-        item: "It’s scalable and secure",
-      },
-      {
-        item: "Artificial Intelligence Feature",
-      },
-      {
-        item: "Offline version available",
-      },
-    ],
-  },
-  {
-    id: 5,
-    slug: "Omnichannel-inbox",
-    title: "Omnichannel inbox",
-    excerpt:
-      "Until recently, the prevailing view asumed lorem ipsum was born as nonsense text.",
-    iconLight: "/images/services/effeciency.svg",
-    iconDark: "/images/services/effeciency-dark.svg",
-    featureImage: "/images/services/service-single1.png",
-    videoLink: "https://www.youtube.com/embed/YE7VzlLtp-4?si=XvNRN6ztByvZQzqh",
-    serviceDetails:
-      "Lorem ipsum dolor sit amet consectetur. Nullam blandit dui gravida aliquam enim eu. Adipiscing viverra vulputate curabitur est. Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit. Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus magna augue adipiscing.",
-    serviceExpectation:
-      "Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit. Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus magna augue adipiscing.",
-    serviceExpectationList: [
-      {
-        item: "It’s scalable and secure",
-      },
-      {
-        item: "Artificial Intelligence Feature",
-      },
-      {
-        item: "Offline version available",
-      },
-    ],
-    serviceQualifications:
-      "Morbi lorem proin morbi tempor risus. Nisl lobortis diam id faucibus pretium vitae suspendisse sed accumsan. Sodales morbi tristique elit cursus gravida. Ullamcorper commodo eget pulvinar pretium. Condimentum rhoncus commodo amet nec auctor nibh vel mi blandit. Neque ultrices nunc condimentum morbi risus tincidunt. Vel arcu lacus non ornare. Porttitor in rhoncus magna augue adipiscing.",
-    serviceQualificationsList: [
-      {
-        item: "It’s scalable and secure",
-      },
-      {
-        item: "Artificial Intelligence Feature",
-      },
-      {
-        item: "Offline version available",
-      },
-    ],
-  },
-  {
-    id: 6,
-    slug: "mobile-apps",
-    title: "mobile app",
-    excerpt:
-      "Do not miss out on the new customers, download our mobile apps and talk to your customers easily",
-    iconLight: "/images/services/fund.svg",
-    iconDark: "/images/services/fund-dark.svg",
     featureImage: "/images/services/service-single1.png",
     videoLink: "https://www.youtube.com/embed/YE7VzlLtp-4?si=XvNRN6ztByvZQzqh",
     serviceDetails:

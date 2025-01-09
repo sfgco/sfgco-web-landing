@@ -14,15 +14,13 @@ const PageHero = ({ subtitle, title, paragraph }) => {
         >
           {subtitle && <p className="mb-4 font-medium uppercase">{subtitle}</p>}
           {title && (
-            <h1
+            <h2
               className="mb-10 max-lg:mb-10"
               dangerouslySetInnerHTML={{ __html: title }}
-            ></h1>
+            ></h2>
           )}
           {paragraph && (
-            <p className="mx-auto mb-12 max-w-[590px] max-lg:mb-10">
-              {paragraph}
-            </p>
+            <p className="mx-auto mb-12   max-lg:mb-10">{paragraph}</p>
           )}
         </motion.div>
       </div>
