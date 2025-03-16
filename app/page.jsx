@@ -9,8 +9,8 @@ const HomePage = () => {
   return (
     <>
       <Hero />
-      <MembersCounter />
       <CoreFeature />
+      <MembersCounter />
       <WhyUs />
       <Clients sectionTitle={false} spacing={"pt-0 pt-0"} />
       <FinancialBlog />
